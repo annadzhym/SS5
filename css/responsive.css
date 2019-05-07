@@ -24,6 +24,10 @@
     .mainmenu ul#nav li a {
         padding: 40px 10px;
     }
+    .modal-dialog {
+        margin: 20px auto 0;
+        width: 900px !important;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -48,8 +52,8 @@
         top: 40px;
     }
     .modal-dialog {
-        margin: 120px auto 0;
-        width: 600px !important;
+        margin: 20px auto 0;
+        width: 720px !important;
     }
     .single_advisor_slide {
         margin-top: 30px;

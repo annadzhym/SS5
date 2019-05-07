@@ -170,5 +170,9 @@
         }, 500);
         event.preventDefault();
     });
+    $(".service_data_dl a").click(function(){
+        $(this).parents("#service_details_wrapper, .modal").toggleClass('in');
+        $('.modal-backdrop').toggleClass('in');
+    });
 
 })(jQuery);

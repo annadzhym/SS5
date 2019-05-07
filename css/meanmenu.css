@@ -192,7 +192,7 @@ a.meanmenu-reveal {
     line-height: 24px;
     padding: 25px 20px;
     position: fixed;
-    right: 0;
+    right: 20px!important;
     text-decoration: none;
     text-indent: -9999em;
     top: 0;
