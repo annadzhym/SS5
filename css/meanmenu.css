@@ -211,3 +211,11 @@ a.meanmenu-reveal {
     top: 70px;
     width: 100%;
 }
+
+@media only screen and (min-width: 920px) and (max-width: 991px) {
+    .mean-container a.meanmenu-reveal {
+        right: 116px!important;
+        top: 12px;
+
+    }
+}

@@ -292,7 +292,8 @@
         padding: 10px
     }
     .logo_area {
-        padding: 10px 0
+        padding: 13px 0;
+        width: 16%;
     }
     .why_choose_us_image {
         text-align: center;
@@ -318,5 +319,20 @@
     }
     .singl-blog-status-bar > span:nth-child(4) {
         float: none
+    }
+    .logo_area {
+        padding: 10px 0;
+        width: 14%;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .logo_area {
+        width: 11%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .logo_area {
+        width: 38%;
+        padding: 14px 0;
     }
 }
